@@ -49,3 +49,7 @@ const resultado =
 : 'El segundo valor es mayor que el primero';
 
 console.log(resultado);
+
+//Ejemplo #3:
+const variable = false;
+console.log(`la variable es: ${variable}`);
