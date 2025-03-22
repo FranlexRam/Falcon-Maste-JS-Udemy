@@ -61,3 +61,8 @@ const {nombre,apellido,pais,edad} = persona;
 console.log(nombre, pais);
 //Mezcalndo ambas
 console.log(c,edad,d,pais);
+
+//*Usando una funcion:
+const mostrarEdad = (nombre,edad,pais) => console.log(`${nombre} tiene ${edad} a;os de edad y nacio en ${pais}!!!`);
+
+mostrarEdad(persona.nombre,persona.edad,persona.pais);
