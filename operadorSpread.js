@@ -1,5 +1,5 @@
 /*
-    📌 Operador Spread:
+    📌 //**Operador Spread:
     Permite tomar los elementos de un arreglo u objeto y expandirlos en otro sitio.
 */
 
@@ -27,18 +27,18 @@
 
 
 /*
-    📌 Parametro 'Rest':
+    📌 //**Parametro 'Rest':
     Permite que una funcion contenga un numero indefinido de argumentos.
 
 */
 
 const registrarUsuario = (nombre, correo, ...datosAdicionales) => console.log(nombre, correo, datosAdicionales);
 
-registrarUsuario('Franlex', 'franlex.ramirez@gmail.com', 28, 'Venezuela', 'Caracas');
+registrarUsuario('Franlex', 'franlex.ramirez@gmail.com', 28, 'Venezuela', 'Caracas','Geoquimico');
 
 
 /*
-    📌 Destructuracion de objetos
+    📌 //**Destructuracion de objetos
     Nos permite obtener elementos o propiedades de un arreglo u objeto y guardarlos en una variable.
 */
 
@@ -66,3 +66,9 @@ console.log(c,edad,d,pais);
 const mostrarEdad = (nombre,edad,pais) => console.log(`${nombre} tiene ${edad} a;os de edad y nacio en ${pais}!!!`);
 
 mostrarEdad(persona.nombre,persona.edad,persona.pais);
+
+//Tambien funciona enviando un objeto:
+
+const encontrarPersona = ({nombre,edad,pais}) => console.log(`${nombre} tiene ${edad} a;os de edad y nacio en ${pais}!!!`);
+
+encontrarPersona(persona);
