@@ -43,3 +43,21 @@ registrarUsuario('Franlex', 'franlex.ramirez@gmail.com', 28, 'Venezuela', 'Carac
 */
 
 //5:32:46
+//**ARRAYS
+const amigos = ['Alejandro', 'Carlos', 'Luis', 'FRANLEX'];
+
+const [a, b, c, d] = amigos;
+console.log(a,d);
+
+//**OBJETOS
+const persona = {
+    nombre: 'Franlex',
+    apellido: 'Ramirez',
+    pais: 'Venezuela',
+    edad: 31,
+};
+
+const {nombre,apellido,pais,edad} = persona;
+console.log(nombre, pais);
+//Mezcalndo ambas
+console.log(c,edad,d,pais);
