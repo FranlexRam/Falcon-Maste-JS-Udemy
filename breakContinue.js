@@ -1,3 +1,9 @@
+/*
+    📌 Break
+    La sentencia break sirve para salir de bloques de tipo switch,
+    pero tambien sirve para forzar la salida de un ciclo.
+*/
+
 //5:55:55
 const amigos = ['Alejandro', 'Andres', 'Franlex', 'Arturo', 'Adrian', 'Antonio', 'Angel', 'Roberto'];
 
@@ -13,3 +19,12 @@ for (let i = 0; i < amigos.length; i++) {
 };
 
 //06:03:06
+
+/*
+    📌 Continue
+    La sentencia continue nos sirve para saltar a la siguiente iteracion.
+*/
+
+const invitados = ['Carlos', 'Christian', 'Christopher', 'Jorge', 'Estefania', 'Erika', 'Manuel'];
+
+//06:05:16
